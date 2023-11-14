@@ -1,0 +1,260 @@
+
+@font-face{
+    font-family: ChopinScript;
+    src:url(ChopinScript.otf);
+}
+@font-face{
+    font-family: Bailenson;
+    src:url(Bailenson.ttf);
+}
+@font-face{
+    font-family: CandleScript;
+    src:url(Candlescript.otf);
+}
+@font-face{
+    font-family: Dellgado;
+    src:url(Dellgado.ttf);
+}
+
+
+
+
+
+
+    
+body {
+     background-color: lightcyan;
+     background-image: url('windowgradient.jpg'); 
+     background-size: 1450px,1450px;
+}
+/* background-color: #edf7fa; */
+
+.Stage1 {
+
+    color: olive;
+    font-size: 200px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 2px;
+    bottom: 325px;
+   
+}
+
+ .ONE {
+     color: purple;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 60px;
+    position: absolute;
+    left: 90px;
+    bottom: 365px;
+    cursor: pointer;
+    
+ }
+
+.page1 {
+
+    color: chocolate;
+    font-size: 60px;
+    background: none;
+    border: none;
+    position: absolute;
+    left: 1370px;
+    top: 670px;
+   
+}
+
+ .ONEone {
+     color: pink;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 20px;
+    position: absolute;
+    left: 1395px;
+  top: 743px;
+    
+    
+ }
+
+ .eyeframe {
+     width: 250px;
+     position:absolute;
+     left: 700px;
+ }
+
+ .tattoo {
+    width: 90px;
+    position:absolute;
+    left: 400px;
+    top: 300px;
+}
+
+.heart {
+    width: 100px;
+    position:absolute;
+    left: 500px;
+    top: 400px;
+}
+
+
+.ooh {
+    width: 100px;
+    position:absolute;
+    left: 1100px;
+    top: 400px;
+}
+
+
+.ribbon1 {
+    width: 100px;
+    position:absolute;
+    left: 620px;
+}
+
+.bodytext {
+ position: absolute;
+ top: 100px;
+ left: 15px;
+
+}
+
+
+.bodytext2 {
+    position: absolute;
+    top: 129px;
+    left: 210px;
+   font-family: candlescript;
+   font-size: 20px;
+
+   }
+   
+   .ribbonviolet {
+    width: 400px;
+    position:absolute;
+    left: 500px;
+    top: 500px;
+
+   }
+   
+   .fork {
+    width: 400px;
+    position:absolute;
+    left: 500px;
+    top: 500px; 
+    cursor: pointer;
+   }
+
+   .forktext {
+       transform: rotate(22deg);
+       position: absolute;
+       top: 586px;
+       left: 565px;
+       font-size: 14.5px;
+       font-family: chopinscript;
+       color: darkslateblue;
+   }
+
+   .spark {
+    width: 150px;
+    position:absolute;
+    left: 1100px;
+    top: 10px; 
+
+   }
+
+
+   /* https://codepen.io/joshuapekera/pen/xGjMMq  REFERENCE FOR SHIMMERY TEXT.. HAHA*/
+
+   
+.shimmer {
+    font-family: "candlescript";
+    font-weight: 300;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 0 140px 0 0;
+    display: inline;
+    margin-bottom: 0;
+}
+
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+.just2say {
+    position: absolute; 
+    left: 1200px;
+    top:112px;
+    width: 200px;
+}
+
+.spotify {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+
+.spotifytext {
+    position: absolute; 
+    top: 650px;
+    left: 50px;
+    color: maroon;
+}

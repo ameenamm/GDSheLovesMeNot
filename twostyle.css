@@ -1,0 +1,273 @@
+@font-face{
+    font-family: ChopinScript;
+    src:url(ChopinScript.otf);
+}
+@font-face{
+    font-family: Bailenson;
+    src:url(Bailenson.ttf);
+}
+@font-face{
+    font-family: CandleScript;
+    src:url(Candlescript.otf);
+}
+@font-face{
+    font-family: Dellgado;
+    src:url(Dellgado.ttf);
+}
+
+
+body {
+    background-image: url("angiegrey.png");
+     background-color: lightcyan;
+     background-size: 1250px;
+   
+
+}
+/* background-color: #edf7fa; */
+
+
+ 
+.shimmer {
+    font-family: "candlescript";
+    font-weight: 300;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 0 140px 0 0;
+    display: inline;
+    margin-bottom: 0;
+}
+
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+
+.napkin1 {
+    width:300px;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    
+}
+
+.napkin2 {
+    width:300px;
+    position: absolute;
+    left:520px;
+    top:-10px;
+    font-size: 30px;
+
+    display:none;
+}
+
+.napkintext {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+    top: 240px;
+    transform: rotate(-22deg);
+    font-family: candlescript;
+}
+
+.bluered {
+    width:300px;
+    position: absolute;
+    top: 438px;
+    left: 1150px;
+ 
+      
+}
+
+.outflower {
+    width:300px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    cursor: pointer;
+ 
+      
+}
+
+.flower {
+    width:300px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+ 
+      
+}
+
+
+.armtat {
+    width:300px;
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+ 
+      
+}
+
+.flwr3 {
+    width:100px;
+    position: absolute;
+    bottom: 350px;
+    left: 300px;
+ 
+      
+}
+
+.textphone {
+    width:400px;
+    position: absolute;
+    top: 350px;
+    left: 680px;
+ 
+    display:none;
+      
+}
+
+.blackphone {
+    width:400px;
+    position: absolute;
+    top: 350px;
+    left: 680px;
+ 
+ 
+}
+
+.redloops {
+    width:400px;
+    position: absolute;
+    top: 170px;
+    left: 680px;
+
+      
+}
+
+.wat {
+    width:100px;
+    position: absolute;
+    top: 60px;
+    left: 1300px;
+
+      
+}
+
+.orangehand {
+    width:100px;
+    position: absolute;
+    top: 140px;
+    left: 1290px;
+
+      
+}
+
+
+.Stage1 {
+
+    color: chocolate;
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    bottom: 650px;
+   
+}
+
+ .ONE {
+     color: pink;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 20px;
+    position: absolute;
+    left: 41px;
+    bottom: 654px;
+    cursor: pointer;
+    
+ }
+
+
+.Stage3 {
+
+    color: pink;
+    font-size: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 590px;
+    bottom: 300px;
+   
+}
+
+ .THREE {
+     color: magenta;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 40px;
+    position: absolute;
+    left: 635px;
+    bottom: 305px;
+    cursor: pointer;
+    
+ }

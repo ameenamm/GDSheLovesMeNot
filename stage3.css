@@ -1,0 +1,413 @@
+@font-face{
+    font-family: ChopinScript;
+    src:url(ChopinScript.otf);
+}
+@font-face{
+    font-family: Bailenson;
+    src:url(Bailenson.ttf);
+}
+@font-face{
+    font-family: CandleScript;
+    src:url(Candlescript.otf);
+}
+@font-face{
+    font-family: Dellgado;
+    src:url(Dellgado.ttf);
+}
+
+
+
+body {
+    background-image: url("pinkbg.png");
+ 
+     background-size: 1550px;
+   
+
+}
+
+
+.Stage1 {
+
+    color: chocolate;
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    bottom: 650px;
+   
+}
+
+ .ONE {
+     color: pink;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 20px;
+    position: absolute;
+    left: 41px;
+    bottom: 654px;
+    cursor: pointer;
+    
+ }
+
+.Stage2 {
+
+    color: olive;
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    bottom: 650px;
+   
+}
+
+ .TWO {
+     color: purple;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 20px;
+    position: absolute;
+    left: 126px;
+    bottom: 654px;
+    cursor: pointer;
+    
+ }
+
+ 
+.shimmer {
+    font-family: "candlescript";
+    font-weight: 300;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 0 140px 0 0;
+    display: inline;
+    margin-bottom: 0;
+}
+
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+
+
+.feb14 {
+    width:100px;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+
+      
+}
+
+
+.handw {
+    width: 130px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    cursor: pointer;
+
+      
+}
+
+.poltext {
+    color: red;
+    position: absolute;
+    top: 370px; 
+    left: 40px;
+    font-family: chopinscript; 
+}
+
+.lefthand {
+    width: 500px;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+   
+
+      
+}
+
+.cafeR {
+    width: 500px;
+    position: absolute;
+    top: 210px;
+    left: 900px;
+    cursor: pointer;
+    
+}
+
+.SAr {
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 1100px;
+    cursor: pointer;
+     
+}
+
+.shoulder {
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+
+     
+}
+
+.swirls {
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+     
+}
+
+.spikes {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+     
+}
+
+.hshit {
+    width: 500px;
+    position: absolute;
+    top: 590px;
+    left: 900px;
+
+ 
+}
+
+
+.purpleloop {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+
+ 
+}
+
+
+
+.fig {
+    width: 100px;
+    position: absolute;
+    top: 168px;
+    left: 130px;
+
+    display:none;
+}
+
+
+.fig2 {
+    width: 100px;
+    position: absolute;
+    top: 168px;
+    left: 130px;
+
+}
+
+.blueloop {
+    width: 100px;
+    position: absolute;
+    top: 630px;
+    left: 560px;
+
+ 
+}
+
+.redstars {
+    width: 100px;
+    position: absolute;
+    top: 630px;
+    left: 480px;
+
+ 
+}
+
+.outflower {
+    width: 300px;
+    position: absolute;
+    top: 0xpx;
+    left: 560px;
+    cursor: pointer;
+
+ 
+}
+
+.flwrs {
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 560px;
+    cursor: pointer;
+
+ 
+}
+
+
+.tbush1 {
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+ 
+
+ 
+}
+
+.tbush2 {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 825px;
+    
+
+ 
+}
+
+.care4 {
+    width: 200px;
+    position: absolute;
+    top: 540px;
+    left: 260px;
+
+ 
+}
+
+.papaya {
+    width: 150px;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+
+    display: none;
+}
+
+.papaya2 {
+    width: 130px;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+
+ 
+
+}
+
+.tbrushtext {
+    position: absolute;
+    left: 950px;
+    font-size: 15px;
+    font-family: helvetica;
+    color: greenyellow;
+
+}
+
+.textcont {
+    position: absolute;
+    top: 23px;
+    left: 1010px;
+    font-size: 15px;
+    font-family: helvetica;
+    color: greenyellow;
+    
+}
+
+
+.flwr3 {
+    position: absolute;
+    top: 350px;
+    left: 1120px;
+    width: 300px;
+   
+    
+}
+
+.Stage4 {
+
+    color: blue;
+    font-size: 120px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+   
+}
+
+ .FOUR {
+     color: greenyellow;
+     font-family: 'Times New Roman', Times, serif; 
+     font-size: 40px;
+    position: absolute;
+    left: 74px;
+    bottom: 120px;
+    cursor: pointer;
+    
+ }
